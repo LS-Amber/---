@@ -120,8 +120,8 @@ def add_coordinates_to_dataframe(df, coords_dict):
 # 使用示例
 if __name__ == "__main__":
     # 处理单个CSV文件
-    csv_file = "C:/Users/hp/Desktop/filter/filter_5%_2023.csv"
+    csv_file = "C:/Users/hp/Desktop/度值分析（新）/2014-2023边快速分析.csv"
     coordinates_file = "C:/Users/hp/Desktop/省shp/省shp/经纬度备用.csv"
-    output_file = "C:/Users/hp/Desktop/filter/output_filter_2023.csv"
+    output_file = "C:/Users/hp/Desktop/聚类系数/2014-2023边快速分析经纬度.csv"
 
     add_coordinates_to_csv(csv_file, coordinates_file, output_file)
